@@ -1,12 +1,20 @@
 import type { Component } from 'solid-js';
 
 import classes from './App.module.css';
+import selfie from './assets/selfie.jpg';
 
 const App: Component = () => {
   return (
     <div>
       <header class={classes.header}>
-        <h1 class={classes.heading}>Julian soto</h1>
+        <img
+          src={selfie}
+          alt="A selfie of me"
+          class={classes.selfie}
+          width={128}
+          height={128}
+        />
+        <h1 class={classes.heading}>Julian Soto</h1>
         <h2 class={classes.subheading}>Web developer</h2>
         <ul class={classes['info-list']}>
           <li>

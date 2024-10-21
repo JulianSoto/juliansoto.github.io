@@ -4,6 +4,13 @@
   align-items: center;
   text-align: center;
   padding: 16px 0;
+  margin-top: 48px;
+}
+
+.selfie {
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 16px;
 }
 
 .heading {
@@ -14,6 +21,8 @@
 
 .subheading {
   font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 8px;
 }
 
 .info-list {
@@ -29,5 +38,6 @@
 
 .main {
   padding: 16px;
+  margin-bottom: 64px;
   line-height: 1.5;
 }
