@@ -1,0 +1,16 @@
+a {
+  color: #0000ac;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+i {
+  font-style: italic;
+}
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
